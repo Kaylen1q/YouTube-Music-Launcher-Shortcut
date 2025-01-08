@@ -37,9 +37,11 @@ func run() error {
 		if k.Message == types.WM_KEYDOWN {
 			char := rune(k.VKCode)
 
-			if string(char) == "." {
+			if string(char) == "#" {
+
 				ytmus := exec.Command("cmd", "/C", "start firefox --private-window  https://music.youtube.com     ")
 				ytmus.Run()
+
 			}
 
 		}
