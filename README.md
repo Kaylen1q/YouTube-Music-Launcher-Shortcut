@@ -1,6 +1,8 @@
 YouTube Music Launcher 
 
 This Go application listens for keyboard events and triggers an action when a specific key is pressed. It leverages the go-hook package to monitor low-level keyboard events and executes a command to open YouTube Music in a private Firefox window when the . (dot) key is pressed.
+
+
 Features
 
     Keyboard Monitoring: Continuously listens for global keyboard events on the system.
